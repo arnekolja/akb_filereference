@@ -76,7 +76,7 @@ Example of handling an upload::
 		$tmpFile = $_FILES['image']['tmp_name'];
 
 		// Get the helper itself.
-		$fileReferenceHelper = $this->objectManager->get(FileReferenceHelper::class);
+		$fileReferenceHelper = $this->objectManager->get(\Akb\FileReference\Helper\FileReferenceHelper::class);
 
 		// Just a convenience method to make sure, it won't result in multiple images
 		// where only one is allowed
