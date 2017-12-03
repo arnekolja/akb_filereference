@@ -1,0 +1,17 @@
+config.tx_extbase {
+  persistence {
+    classes {
+      Akb\FileReference\Domain\Model\FileReference {
+        mapping {
+          tableName = sys_file_reference
+        }
+      }
+    }
+
+    objects {
+      TYPO3\CMS\Extbase\Domain\Model\FileReference.className = Akb\FileReference\Domain\Model\FileReference
+    }
+
+    updateReferenceIndex = 1
+  }
+}
