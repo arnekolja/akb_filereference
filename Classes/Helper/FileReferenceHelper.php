@@ -47,6 +47,7 @@ class FileReferenceHelper {
 
 	/**
 	 * Remove a property's file reference (remove file from object), and check whether the property is empty before
+	 *
 	 * @param  mixed  $object       The object which has the property
 	 * @param  string $propertyName Name of the property which shall be cleared
 	 * @return void
@@ -61,6 +62,7 @@ class FileReferenceHelper {
 
 	/**
 	 * Remove a property's file reference (remove file from object)
+	 *
 	 * @param  mixed  $object       The object which has the property
 	 * @param  string $propertyName Name of the property which shall be cleared
 	 * @return void
